@@ -1,0 +1,21 @@
+/* Write your CSS code here */
+.bottom-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.contacthead {
+  color: #551e53;
+  font-family: Roboto;
+  font-size: 50px;
+}
+.contactlogo {
+  height: 150px;
+}
+.contactpara {
+  font-family: Roboto;
+  font-size: 20px;
+  color: grey;
+}

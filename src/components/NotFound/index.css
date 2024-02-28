@@ -1,0 +1,18 @@
+/* Write your CSS code here */
+.bottomContainernotfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.notfoundlogo {
+  height: 300px;
+}
+
+.headNotfound {
+  font-size: 50px;
+  font-family: Roboto;
+  color: blueviolet;
+}

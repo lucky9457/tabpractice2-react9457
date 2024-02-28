@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+.headerContainer {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.liElement {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.head {
+  font-family: Roboto;
+  font-size: 30px;
+}
+.headerTabsList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+
+  width: 20vw;
+  padding-left: 0px;
+}
+.navlink {
+  text-decoration: none;
+  margin: 10px;
+  color: black;
+
+  font-family: 'Roboto';
+}
+.navlink:hover {
+  cursor: pointer;
+}
+@media (width<=576px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .headerContainer {
+    width: 100vw;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .headerTabsList {
+    margin: 0px;
+
+    width: 100%;
+    justify-content: end;
+    margin-right: 10px;
+  }
+}

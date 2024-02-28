@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.homehead {
+  color: #551e53;
+  font-family: Roboto;
+  font-size: 50px;
+}
+.homelogo {
+  height: 150px;
+}
+
+.bottomCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

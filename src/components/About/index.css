@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+/* Write your CSS code here */
+.bottomContainerabout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.abouthead {
+  color: #551e53;
+  font-family: Roboto;
+  font-size: 50px;
+}
+.aboutlogo {
+  height: 150px;
+}
+.aboutpara {
+  font-family: Roboto;
+  font-size: 20px;
+  color: grey;
+}
